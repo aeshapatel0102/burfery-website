@@ -1,0 +1,1716 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .nav1 {
+    background-color: rgb(247, 247, 247);
+}
+
+header .nav1 div p {
+    padding: 8px;
+    margin-left: 250px;
+    color: rgb(50, 50, 50);
+}
+
+header .nav1 div p .contact {
+    margin-left: 30px;
+}
+
+header .nav1 div p span i {
+    padding-right: 13px;
+}
+
+.nav2 {
+    width: 100%;
+}
+
+header .nav2 ul {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    box-shadow: 5px 0px 5px black;
+}
+
+header .nav2 ul .list,
+.logo {
+    display: inline-block;
+    margin: 30px 15px;
+}
+
+header .nav2 ul .list a {
+    color: black;
+    font-size: 20px;
+    padding: 7px 15px;
+}
+
+header .nav2 ul .logo a {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin: 20px;
+    color: black;
+}
+
+header .nav2 ul .list a:hover {
+    background-color: orangered;
+    color: black;
+}
+
+header .nav2 ul li .homec a {
+    display: block;
+    border-bottom: 2px hidden white;
+}
+
+header .nav2 ul li .homec {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    margin-top: 10px;
+    display: none;
+}
+
+header .nav2 ul li .pagec a {
+    display: block;
+}
+
+header .nav2 ul li .pagec {
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    margin-top: 10px;
+    display: none;
+}
+
+header .nav2 ul .page:hover .pagec {
+    display: block;
+}
+
+header .nav2 ul .home:hover .homec {
+    display: block;
+}
+
+.banner img {
+    height: 85vh;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.banner .con {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    top: 250px;
+    width: 40%;
+}
+
+.banner .con h2 {
+    font-size: 55px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+.banner .con p {
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    word-spacing: 3px;
+}
+
+.banner .con .button {
+    margin-top: 20px;
+    padding: 15px 35px;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+.banner .con .button:hover {
+    color: orangered;
+    background-color: transparent;
+}
+
+section .sec2 {
+    width: 100%;
+    display: flex;
+    margin: 15vh 0;
+}
+
+section .sec2 .delivery,
+.exchange,
+.payment,
+.support {
+    flex-wrap: wrap;
+    border: 1px hidden black;
+    border-radius: 10px;
+    margin: 0 20px;
+    box-shadow: 0 0 4px black;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    width: 240px;
+}
+
+section .sec2 .delivery {
+    margin-left: 15%;
+}
+
+section .sec2 .support {
+    margin-right: 15%;
+}
+
+.hed {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.c {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#i {
+    margin-top: 20px;
+}
+
+section div .content1 {
+    width: 100%;
+    text-align: center;
+}
+
+section div .content1 h2 {
+    font-size: 2.5vw;
+}
+
+section div .content1 p {
+    font-size: 1.5vw;
+}
+
+section .img {
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+section div .img {
+    width: 100%;
+}
+
+section div .img .a,
+.b,
+.d {
+    float: left;
+    width: 33%;
+}
+
+#p1 a {
+    margin-left: 12%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+#p2 a {
+    margin-left: 14%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+#p3 a {
+    margin-left: 17%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+#p1 a:hover {
+    color: orangered;
+}
+
+#p2 a:hover {
+    color: orangered;
+}
+
+#p3 a:hover {
+    color: orangered;
+}
+
+section .img2,
+.conte {
+    width: 50%;
+    float: left;
+    display: block;
+    margin: 10% 0;
+}
+
+section .img2 img {
+    width: 60%;
+    margin-left: 20%;
+}
+
+section .conte h3 {
+    font-size: 2.2vw;
+    margin-bottom: 5%;
+}
+
+section .conte .conte-p {
+    font-size: 1.5vw;
+}
+
+section .conte .button2 {
+    padding: 15px 35px;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+    margin-top: 5%;
+}
+
+section .conte .button2:hover {
+    color: orangered;
+    background-color: transparent;
+}
+
+section .conte {
+    padding: 3% 3%;
+    margin-top: 8%;
+    width: 50%;
+    height: 100%;
+}
+
+section .sec4 {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+section .sec4 h4 {
+    font-size: 3vw;
+    margin: 1% 0;
+}
+
+section .sec4 p {
+    font-size: 25px;
+}
+
+section .img3 .a1,
+.b1,
+.d1 {
+    float: left;
+    width: 33%;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+section .img3 {
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+section .img3 .a1>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+section .img3 .b1>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+section .img3 .d1>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+#last {
+    color: black;
+}
+
+section .img3 .a1 p a {
+    margin-left: 28%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .img3 .b1 p a {
+    margin-left: 35%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .img3 .d1 p a {
+    margin-left: 32%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .img3 .a1 ul {
+    margin-left: 34%;
+}
+
+section .img3 .b1 ul {
+    margin-left: 35.5%;
+}
+
+section .img3 .d1 ul {
+    margin-left: 36%;
+}
+
+#p1-a1 {
+    margin-left: 37%;
+}
+
+#p1-b1 {
+    margin-left: 39%;
+}
+
+#p1-d1 {
+    margin-left: 40%;
+}
+
+section .img3 .a1 div .iconn-a1 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 16%;
+    left: -7%;
+}
+
+section .img3 .a1 div .iconn-a1 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .img3 .a1 div .iconn-a1 li i:hover {
+    color: orangered;
+}
+
+section .img3 .b1 div .iconn-b1 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 16%;
+    left: -7%;
+}
+
+section .img3 .b1 div .iconn-b1 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .img3 .b1 div .iconn-b1 li i:hover {
+    color: orangered;
+}
+
+section .img3 .d1 div .iconn-d1 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 16%;
+    left: -7%;
+}
+
+section .img3 .d1 div .iconn-d1 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .img3 .d1 div .iconn-d1 li i:hover {
+    color: orangered;
+}
+
+section .div4 .sect-5 {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 13%;
+    width: max-content;
+    margin-top: 13%;
+    margin-left: 22%;
+    padding: 6% 8%;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+section .div4 .sect-5 p {
+    font-weight: 700;
+    font-size: 1.5vw;
+    margin-bottom: 5%;
+}
+
+section .div4 .sect-5 h5 {
+    font-size: 6vh;
+    font-weight: 800;
+    color: rgb(166, 78, 46);
+    margin-bottom: 7%;
+}
+
+.abc {
+    display: inline-block;
+    width: 100%;
+    background-image: url('image/walpaper-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.button-3 {
+    padding: 15px 35px;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+
+}
+
+.button-3:hover {
+    color: orangered;
+    background-color: transparent;
+}
+
+section .sec-6 {
+    width: 100%;
+    text-align: center;
+    margin: 7% 0 5% 0;
+    padding: 0 25%;
+}
+
+section .sec-6 h5 {
+    font-size: 2vw;
+}
+
+section .sec-6 p {
+    font-size: 20px;
+}
+
+
+section .img3-1 .a2,
+.b2,
+.d2 {
+    float: left;
+    width: 33%;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+section .img3-1 {
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+section .img3-1 .a2>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+section .img3-1 .b2>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+section .img3-1 .d2>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+#last {
+    color: black;
+}
+
+section .img3-1 .a2 p a {
+    margin-left: 27%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .img3-1 .b2 p a {
+    margin-left: 32%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .img3-1 .d2 p a {
+    margin-left: 35%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .img3-1 .a2 ul {
+    margin-left: 34%;
+}
+
+section .img3-1 .b2 ul {
+    margin-left: 35.5%;
+}
+
+section .img3-1 .d2 ul {
+    margin-left: 36%;
+}
+
+#p1-a2 {
+    margin-left: 37%;
+}
+
+#p1-b2 {
+    margin-left: 39%;
+}
+
+#p1-d2 {
+    margin-left: 40%;
+}
+
+section .img3-1 .a2 div .iconn-a2 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 16%;
+    left: -7%;
+}
+
+section .img3-1 .a2 div .iconn-a2 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .img3-1 .a2 div .iconn-a2 li i:hover {
+    color: orangered;
+}
+
+section .img3-1 .b2 div .iconn-b2 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 16%;
+    left: -7%;
+}
+
+section .img3-1 .b2 div .iconn-b2 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .img3-1 .b2 div .iconn-b2 li i:hover {
+    color: orangered;
+}
+
+section .img3-1 .d2 div .iconn-d2 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 16%;
+    left: -7%;
+}
+
+section .img3-1 .d2 div .iconn-d2 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .img3-1 .d2 div .iconn-d2 li i:hover {
+    color: orangered;
+}
+
+section .img3-2 .a3,
+.b3,
+.d3 {
+    float: left;
+    width: 33%;
+    position: relative;
+    margin-bottom: 10%;
+
+}
+
+section .img3-2 {
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+section .img3-2 .a3>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+section .img3-2 .b3>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+section .img3-2 .d3>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+#last {
+    color: black;
+}
+
+section .img3-2 .a3 p a {
+    margin-left: 31%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .img3-2 .b3 p a {
+    margin-left: 35%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .img3-2 .d3 p a {
+    margin-left: 36%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .img3-2 .a3 ul {
+    margin-left: 34%;
+}
+
+section .img3-2 .b3 ul {
+    margin-left: 35.5%;
+}
+
+section .img3-2 .d3 ul {
+    margin-left: 36%;
+}
+
+#p1-a3 {
+    margin-left: 37%;
+}
+
+#p1-b3 {
+    margin-left: 39%;
+}
+
+#p1-d3 {
+    margin-left: 40%;
+}
+
+section .img3-2 .a3 div .iconn-a3 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 16%;
+    left: -7%;
+}
+
+section .img3-2 .a3 div .iconn-a3 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .img3-2 .a3 div .iconn-a3 li i:hover {
+    color: orangered;
+}
+
+section .img3-2 .b3 div .iconn-b3 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 16%;
+    left: -7%;
+}
+
+section .img3-2 .b3 div .iconn-b3 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .img3-2 .b3 div .iconn-b3 li i:hover {
+    color: orangered;
+}
+
+section .img3-2 .d3 div .iconn-d3 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 16%;
+    left: -7%;
+}
+
+section .img3-2 .d3 div .iconn-d3 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .img3-2 .d3 div .iconn-d3 li i:hover {
+    color: orangered;
+}
+
+section .leader {
+    text-align: center;
+    background-color: rgb(245, 243, 255);
+    padding: 8% 0 5% 0;
+}
+
+section .leader .dis1 h5 {
+    font-size: 3vw;
+}
+
+section .leader .dis1 p {
+    padding: 0 30%;
+}
+
+section .leader .dis2 img {
+    border: 15px solid white;
+    border-radius: 150px;
+    outline: 1px solid gray;
+    opacity: 0.7;
+}
+
+section .leader .dis2 {
+    display: block;
+}
+
+section .leader .dis1 ul {
+    display: block;
+    padding-left: 47%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+section .leader .dis1 ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+section .leader .dis2 img:hover {
+    opacity: 1;
+    width: 10.1%;
+}
+
+section .leader img {
+    margin: 3% 0 2% 0;
+}
+
+section .img3-3 .a4,
+.b4,
+.d4 {
+    float: left;
+    width: 33%;
+    margin-bottom: 10%;
+}
+
+section .img3-3 {
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+section .img3-3 .a4 ul {
+    display: block;
+    margin: 0 0 0 14%;
+}
+
+section .img3-3 .a4 ul li {
+    float: left;
+    margin: 3% 2% 1% 2%;
+}
+
+section .img3-3 .b4 ul {
+    display: block;
+    margin: 0 0 0 15%;
+}
+
+section .img3-3 .b4 ul li {
+    float: left;
+    margin: 3% 2% 1% 2%;
+}
+
+section .img3-3 .d4 ul {
+    display: block;
+    margin: 0 0 0 14%;
+}
+
+section .img3-3 .d4 ul li {
+    float: left;
+    margin: 3% 2% 1% 2%;
+}
+
+section .img3-3 .d4 ul li a {
+    color: black;
+}
+
+section .img3-3 .a4 ul li a {
+    color: black;
+}
+
+section .img3-3 .b4 ul li a {
+    color: black;
+}
+
+section .img3-3 .d4 p {
+    display: block;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0% 11% 0% 2%;
+}
+
+section .img3-3 .d4 p a {
+    color: #000000;
+}
+
+section .img3-3 .d4:hover #p {
+    color: orangered;
+}
+
+section .img3-3 .a4 p {
+    display: block;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0% 11% 0% 2%;
+}
+
+section .img3-3 .a4 p a {
+    color: #000000;
+}
+
+section .img3-3 .a4:hover #p {
+    color: orangered;
+}
+
+section .img3-3 .b4 p {
+    display: block;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0% 11% 0% 2%;
+}
+
+section .img3-3 .b4 p a {
+    color: #000000;
+}
+
+section .img3-3 .b4:hover #p {
+    color: orangered;
+}
+
+section .blog1 {
+    width: 100%;
+    margin: 5% 0 1% 0;
+    text-align: center;
+}
+
+section .blog1 h5 {
+    font-size: 3vw;
+}
+
+section .blog1 p {
+    padding: 0 30%;
+    font-size: 1.2vw;
+}
+
+section .img3-4 .a5,
+.b5,
+.c5,
+.d5 {
+    float: left;
+    width: 25%;
+    position: relative;
+}
+
+section .img3-4 {
+    width: 100%;
+    margin-top: 7%;
+}
+
+section .img3-4 .a5 {
+    padding-left: 5%;
+}
+
+section .img3-4 .d5 {
+    padding-right: 2%;
+}
+
+section .img3-4 .a5 p a {
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    font-size: 2vw;
+    color: black;
+    visibility: hidden;
+}
+
+section .img3-4 .b5 p a {
+    position: absolute;
+    top: 49%;
+    left: 43%;
+    font-size: 2vw;
+    color: black;
+    visibility: hidden;
+}
+
+section .img3-4 .c5 p a {
+    position: absolute;
+    top: 49%;
+    left: 43%;
+    font-size: 2vw;
+    color: black;
+    visibility: hidden;
+}
+
+section .img3-4 .d5 p a {
+    position: absolute;
+    top: 49%;
+    left: 39%;
+    font-size: 2vw;
+    color: black;
+    visibility: hidden;
+}
+
+section .img3-4 .a5:hover #a-5 {
+    opacity: 0.8;
+}
+
+section .img3-4 .b5:hover #b-5 {
+    opacity: 0.8;
+}
+
+section .img3-4 .c5:hover #c-5 {
+    opacity: 0.8;
+}
+
+section .img3-4 .d5:hover #d-5 {
+    opacity: 0.8;
+}
+
+section .img3-4 .d5:hover #d5 {
+    visibility: visible;
+}
+
+section .img3-4 .b5:hover #b5 {
+    visibility: visible;
+}
+
+section .img3-4 .c5:hover #c5 {
+    visibility: visible;
+}
+
+section .img3-4 .a5:hover #a5 {
+    visibility: visible;
+}
+
+section .con-img3-5 {
+    width: 100%;
+    text-align: center;
+}
+
+section .con-img3-5 h6 {
+    font-size: 2.5vw;
+}
+
+section .con-img3-5 p {
+    color: rgb(169, 53, 11);
+}
+
+section .img3-6 {
+    width: 100%;
+}
+
+section .img3-6 .a7,
+.b7,
+.c7,
+.d7,
+.e7 {
+    width: 20%;
+    float: left;
+    margin-top: 7%;
+    margin-bottom: 8%;
+}
+
+section .img3-6 .a7 {
+    padding-left: 9%;
+}
+
+section .img3-6 .e7 {
+    padding-right: 9%;
+    padding-left: 5%;
+}
+
+section .img3-6 .b7 {
+    padding-left: 5%;
+    margin-top: 6.5%;
+}
+
+section .img3-6 .c7 {
+    padding-left: 5%;
+}
+
+section .img3-6 .d7 {
+    padding-left: 5%;
+}
+
+section .img3-6 .b7 p {
+    margin-top: -5%;
+    margin-left: 6%;
+}
+
+section .img3-6 .c7 p {
+    margin-left: -3%;
+}
+
+section .img3-6 .d7 p {
+    margin-left: 2%;
+}
+
+footer .footer {
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+
+footer .footer .footer1-1 {
+    margin-left: 10%;
+    margin-right: 1%;
+    margin-top: 5%;
+}
+
+footer .footer .footer1-1 .f1,
+.f2,
+.f3,
+.f4 {
+    width: 23%;
+    float: left;
+}
+
+footer .footer .footer1-1 .f1 h1 {
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+}
+
+footer .footer .footer1-1 .f1 p {
+    text-align: left;
+    margin-right: 8%;
+    font-size: 1.1vw;
+}
+
+footer .footer .footer1-1 .f1 ul li a {
+    float: left;
+    font-size: 2vw;
+    margin-top: 5%;
+    margin-right: 5%;
+    color: white;
+}
+
+footer .footer .footer1-1 .f2 h6 {
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    margin-bottom: 11%;
+}
+
+footer .footer .footer1-1 .f2 ul li a {
+    font-size: 1.1vw;
+    color: white;
+}
+
+footer .footer .footer1-1 .f2 ul li {
+    margin-bottom: 8%;
+}
+
+footer .footer .footer1-1 .f3 h6 {
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    margin-bottom: 11%;
+}
+
+footer .footer .footer1-1 .f3 ul li a {
+    font-size: 1.1vw;
+    color: white;
+}
+
+footer .footer .footer1-1 .f3 ul li {
+    margin-bottom: 8%;
+}
+
+footer .footer .footer1-1 .f4 h6 {
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    margin-bottom: 11%;
+}
+
+footer .footer .footer1-1 .f4 .ul1 li {
+    color: white;
+    margin-bottom: 8%;
+}
+
+footer .footer .footer1-1 .f4 .ul1 li a {
+    color: white;
+    margin-bottom: 8%;
+}
+
+footer .footer .footer1-1 .f4 .ul2 li {
+    float: left;
+    margin-right: 5%;
+}
+
+/* product details */
+section .banner .con .h2,
+.p {
+    color: white;
+}
+
+.banner .co-1 {
+    bottom: 100px;
+    left: 150px;
+    top: 350px;
+    width: 40%;
+}
+
+section .products-all {
+    float: left;
+    width: 50%;
+    padding-left: 7%;
+    margin-left: 2%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+section .products-all .product-2 {
+    width: 100%;
+    float: left;
+}
+
+section .products-all .product-2 a img {
+    width: 26%;
+    float: left;
+    height: 200px;
+    margin-right: 1%;
+}
+
+section .product-discription {
+    width: 48%;
+    float: left;
+    margin-top: 8%;
+    padding-right: 9%;
+}
+
+section .product-discription h3 {
+    font-size: 2vw;
+    margin-bottom: 3%;
+}
+
+section .product-discription .p-1 {
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+section .product-discription .ul-1 li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+section .product-discription .ul-1 #last {
+    margin-right: 2%;
+}
+
+section .product-discription hr {
+    margin: 5% 0;
+}
+
+section .product-discription .ul-2 li {
+    margin-bottom: 3%;
+}
+
+section .product-discription .a-1 i {
+    margin-top: 5%;
+    margin-right: 2%;
+}
+
+section .product-discription .a-1 {
+    color: #000000;
+}
+
+section .product-discription .p-2 {
+    margin-top: 4%;
+}
+
+section .product-discription .p-2 input {
+    height: 30px;
+    width: 90px;
+    margin-bottom: 5%;
+}
+
+section .product-discription .ul-3 li {
+    margin-bottom: 3%;
+}
+
+.button-4 {
+    margin-top: 7%;
+}
+
+section .main-1 .discription-1 {
+    display: inline-block;
+    text-align: center;
+}
+
+section .main-1 {
+    margin: 0 10%;
+}
+
+section .main-1 .discription-1 h4 {
+    font-size: 2vw;
+    margin-bottom: 3%;
+}
+
+section .main-1 .discription-1 p {
+    font-size: 1.3vw;
+    margin: 0 8%;
+}
+
+section .main-1 .discription-2 .dis-1,
+.dis-2,
+.dis-3,
+.dis-4 {
+    float: left;
+    width: 25%;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+section .discription-2 {
+    width: 100%;
+    margin-top: 8%;
+}
+
+section .discription-2 .dis-1>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+section .discription-2 .dis-2>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+section .discription-2 .dis-3>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+section .discription-2 .dis-4>ul li {
+    float: left;
+    color: rgb(216, 67, 13);
+}
+
+#last {
+    color: black;
+}
+
+section .discription-2 .dis-1 p a {
+    margin-left: 18%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .discription-2 .dis-2 p a {
+    margin-left: 30%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .discription-2 .dis-3 p a {
+    margin-left: 25%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .discription-2 .dis-4 p a {
+    margin-left: 25%;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+}
+
+section .discription-2 .dis-1>ul {
+    margin-left: 28%;
+}
+
+section .discription-2 .dis-2>ul {
+    margin-left: 32%;
+}
+
+section .discription-2 .dis-3>ul {
+    margin-left: 31%;
+}
+
+section .discription-2 .dis-4>ul {
+    margin-left: 36%;
+}
+
+#dis-1-a1 {
+    margin-left: 35%;
+}
+
+#dis-2-a1 {
+    margin-left: 37%;
+}
+
+#dis-3-a1 {
+    margin-left: 37%;
+}
+
+#dis-4-a1 {
+    margin-left: 40%;
+}
+
+section .discription-2 .dis-1 .iconn-a1 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 22%;
+    left: -16%;
+    margin-left: 34%;
+
+}
+
+section .discription-2 .dis-1 div .iconn-a1 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .discription-2 .dis-1 div .iconn-a1 li i:hover {
+    color: orangered;
+}
+
+section .discription-2 .dis-2 div .iconn-b1 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 22%;
+    left: -15%;
+    margin-left: 35.5%;
+}
+
+section .discription-2 .dis-2 div .iconn-b1 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .discription-2 .dis-2 div .iconn-b1 li i:hover {
+    color: orangered;
+}
+
+section .discription-2 .dis-3 div .iconn-d1 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 22%;
+    left: -18%;
+    margin-left: 36%;
+}
+
+section .discription-2 .dis-3 div .iconn-d1 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .discription-2 .dis-3 div .iconn-d1 li i:hover {
+    color: orangered;
+}
+
+
+section .discription-2 .dis-4 div .iconn-a1 {
+    display: inline-flex;
+    position: absolute;
+    bottom: 22%;
+    left: -18%;
+    margin-left: 36%;
+}
+
+section .discription-2 .dis-4 div .iconn-a1 li i {
+    float: left;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+section .discription-2 .dis-4 div .iconn-a1 li i:hover {
+    color: orangered;
+}
+
+
+/* contact page*/
+.contact-con-1 {
+    top: 50%;
+}
+
+.contact-con-1 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    top: 260px;
+    width: 40%;
+    color: rgb(50, 50, 50);
+}
+
+.contact-con-1 h2 {
+    font-size: 55px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+.contact-con-1 p {
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    word-spacing: 3px;
+}
+
+.contact-banner-1 img {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+section .contact-1,
+.form-1 {
+    width: 40%;
+    float: left;
+    margin-top: 15vh;
+}
+
+section .contact-1 {
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.form-1 {
+    margin-left: 6%;
+    margin-right: 7%;
+    background-color: rgb(248, 248, 248);
+}
+
+.contact-1>h3 {
+    font-size: 2.5vw;
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+
+section .form-1 form .maiin-1 {
+    padding: 10% 5%;
+}
+
+section .form-1 form .maiin-1 div {
+    margin-bottom: 2%;
+}
+
+section .form-1 form .maiin-1 div input,
+textarea {
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    font-size: 15px;
+}
+
+.button-1-2 {
+    margin-top: 35px;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+.button-1-2:hover {
+    color: orangered;
+    background-color: transparent;
+}
+
+section .contact-1 h3 {
+    font-weight: bolder;
+}
+
+section .contact-1>p {
+    margin-bottom: 5%;
+}
+
+section .contact-1 .location-1 i {
+    float: left;
+    border: 1px solid rgb(216, 67, 13);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: rgb(216, 67, 13);
+    color: white;
+}
+
+section .contact-1 .location-1 div .p-1-1 {
+    margin-top: 2%;
+    margin-left: 15%;
+    font-weight: 700;
+}
+
+section .contact-1 .location-1 div .p-1-2 {
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+section .contact-1 .email-1 i {
+    float: left;
+    border: 1px solid rgb(216, 67, 13);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: rgb(216, 67, 13);
+    color: white;
+}
+
+section .contact-1 .email-1 {
+    margin-top: 5%;
+}
+
+section .contact-1 .email-1 div .p-2-1 {
+    margin-top: 2%;
+    margin-left: 15%;
+    font-weight: 700;
+}
+
+section .contact-1 .email-1 div .p-2-2 {
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+section .contact-1 .phone-1 i {
+    float: left;
+    border: 1px solid rgb(216, 67, 13);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: rgb(216, 67, 13);
+    color: white;
+}
+
+section .contact-1 .phone-1 {
+    margin-top: 5%;
+}
+
+section .contact-1 .phone-1 div .p-3-1 {
+    margin-top: 2%;
+    margin-left: 15%;
+    font-weight: 700;
+}
+
+section .contact-1 .phone-1 div .p-3-2 {
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+section .map-1 {
+    display: inline-block;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+/* Error page*/
+.error-banner-1 img {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.error-con-1 h2 {
+    font-size: 55px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+.error-con-1 p {
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    word-spacing: 3px;
+}
+
+.error-con-1 {
+    top: 50%;
+}
+
+.error-con-1 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    top: 350px;
+    width: 40%;
+    color: rgb(255, 255, 255);
+}
+
+section .err {
+    width: 100%;
+    margin-bottom: 7%;
+
+}
+
+section .err .error-imag {
+    width: 100%;
+}
+
+section .err .error-imag img {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.button-2-2 {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 17px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+.button-2-2:hover {
+    color: orangered;
+    background-color: transparent;
+}
+
+.btn-1-1 p {
+    text-align: center;
+}
